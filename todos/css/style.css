@@ -1,0 +1,117 @@
+ul{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+.display_none{
+    display: none;
+}
+.display_block{
+    display: block;
+}
+.main{
+    padding-top: 100px;
+}
+.main>div{
+    margin: auto;
+    width: 500px;
+    position: relative;
+}
+.inputText{
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    border: 1px solid #cccccc;
+    box-shadow:1px 1px 10px rgba(0, 0, 0, 0.3);
+    outline: none;
+    position: relative;
+    box-sizing: border-box;
+}
+.inputList{
+    width: 500px;
+    border-radius: 5px;
+    box-shadow:0 1px 10px rgba(0, 0, 0, 0.3);
+
+}
+.inputList li{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-bottom: 1px solid #cccccc;
+}
+.inputList li:last-child{
+    border-bottom:none;
+}
+.inputList li span{
+    display: none;
+    float: right;
+}
+.inputList li input[type="checkbox"]{
+    float: left;
+    margin-top: 15px;
+}
+.inputList li input[type="text"]{
+    height: 35px;
+    width: calc(100% - 27px);
+    margin-left: 23px;
+    padding: 0 5px;
+}
+.inputList li lable{
+    display: block;
+    width: calc(100% - 60px);
+    float: left;
+}
+.inputList li.completed lable{
+    color: #d9d9d9;
+    text-decoration: line-through;
+}
+
+#footer{
+    text-align: center;
+    padding: 0 10px;
+    border-bottom: 1px solid #cccccc;
+    height: 40px;
+    line-height: 40px;
+}
+#footer span{
+    float: left;
+}
+#footer ul{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+#footer ul li{
+    display: inline;
+}
+#footer small{
+    position: absolute;
+    right: 10px;
+}
+#footer ul li,#footer small{
+    cursor: pointer;
+}
+#footer ul li:hover{
+    border: 1px solid #cccccc;
+}
+#footer ul li{
+    padding: 3px;
+    border: 1px solid #ffffff;
+}
